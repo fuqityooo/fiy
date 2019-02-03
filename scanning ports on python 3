@@ -41,8 +41,8 @@ def fanc2():
 
 print("~"*50)
 
-print("\t[1] --- сканировать отделный порт")
-print("\t[2] --- сканировать список")
+print("\t[1] --- skan port")
+print("\t[2] --- skan list")
 
 print("~"*50, "\n")
 text_a = input("[scan]--> ")
@@ -52,4 +52,4 @@ if text_a == "1":
 elif text_a == "2":
     fanc2()
 else:
-    print(colored("Параметр введен не правильно!", 'red'))
+    print(colored("Error!", 'red'))
