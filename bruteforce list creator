@@ -1,0 +1,5 @@
+listo = {}
+for x in range(0,99999999):#создаем пароли для брута с помощью питона :)
+if x % 1 == 0:
+listo.append(x)
+print(listo)
